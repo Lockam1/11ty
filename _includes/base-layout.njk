@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>Eleventy Blog</title> 
+</head> 
+<body onload="init()"> 
+  <header>
+    Site Header
+    <a href="/About">About</a>
+  </header> 
+  <main> 
+    {{ content | safe }}
+  </main> 
+  <footer><legend>Site Footer</legend>
+  
+    <fieldset id="ballContainer" style ="border-radius: 10px; text-align:center">
+      <canvas id="myCanvas" width="600px" height="150px"></canvas>
+    </fieldset>
+
+  </footer> 
+  </body> 
+  <script src="ball.js"></script> 
+</html>
