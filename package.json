@@ -10,6 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
-  }
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-navigation": "^0.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lockam1/11ty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lockam1/11ty/issues"
+  },
+  "homepage": "https://github.com/Lockam1/11ty#readme"
 }
