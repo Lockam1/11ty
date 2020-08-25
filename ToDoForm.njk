@@ -16,7 +16,7 @@ function toJson() {
 <h1>UX ToDo Form</h1>
 
 <h3 id="formTitle">Add To ToDo List:</h3>
-<form id="formData">
+<form id="formData" >
     <label for="Title">Title:</label>
         <input type='text' id="Title" name="Title"></input>
 
@@ -26,6 +26,6 @@ function toJson() {
     <label for="DueDate">Due Date:</label>
         <input type='date' id="DueDate" name="DueDate"></input>
 
-    <button onclick="toJson()">Submit</button>
+    <button type="button" onclick="toJson()">Submit</button>
 </form>    
 <p id="itWorked"></p>
