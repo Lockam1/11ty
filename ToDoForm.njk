@@ -1,0 +1,31 @@
+---
+layout: base-layout.njk
+---
+
+<script>
+
+function toJson() {
+    JSON.stringify(Object.fromEntries(formData));
+    document.getElementById("itWorked").innerHTML = "It Worked!!.";
+    console.log(JSON.stringify(formData));
+    }
+    
+
+</script>
+
+<h1>UX ToDo Form</h1>
+
+<h3 id="formTitle">Add To ToDo List:</h3>
+<form id="formData">
+    <label for="Title">Title:</label>
+        <input type='text' id="Title" name="Title"></input>
+
+    <label for="ToDo">ToDo:</label>
+        <input type='text' id="ToDo" name="ToDo"></input>
+
+    <label for="DueDate">Due Date:</label>
+        <input type='date' id="DueDate" name="DueDate"></input>
+
+    <button onclick="toJson()">Submit</button>
+</form>    
+<p id="itWorked"></p>

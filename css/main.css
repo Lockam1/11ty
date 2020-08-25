@@ -1,8 +1,27 @@
 .footer {
     color:green !important;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
     background-color: #f8f9fa!important;
   }
+
+  form {
+    font: 1em sans-serif;
+    max-width: 300px;
+  }
+
+  input,
+  label{
+    width : 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  button{
+    margin-top:20px;
+    width: 100%;
+    text-align: center;
+  }
+  
